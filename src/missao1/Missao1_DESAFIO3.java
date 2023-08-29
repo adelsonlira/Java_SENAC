@@ -1,4 +1,4 @@
-package Missao1;
+package missao1;
 
 public class Missao1_DESAFIO3 {
     public static void main(String[] args) {
