@@ -3,12 +3,23 @@ package missao3;
  * Data: 28/08/2023
  */
 public class Missao3_Calculadora {
-    public double resultado;
-    public double numero1;
-    public double numero2;
 
-    public void somar(){
+    private double R;
 
+    public double somar(double N1, double N2){
+        return R = N1 + N2;
+    }
+
+    public double subtrair(double N1, double N2){
+        return R = N1 - N2;
+    }
+
+    public double multiplicar(double N1, double N2){
+        return R = N1 * N2;
+    }
+
+    public double dividir(double N1, double N2){
+        return R = N1 / N2;
     }
 
 }
