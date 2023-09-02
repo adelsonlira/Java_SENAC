@@ -18,8 +18,11 @@ public class Missao3_Calculadora {
         return R = N1 * N2;
     }
 
-    public double dividir(double N1, double N2){
-        return R = N1 / N2;
+    public double dividir(double N1, double N2) {
+        if(N2 != 0){
+            return R = N1 / N2;
+        }else{
+            return 0;
+        }
     }
-
 }

@@ -9,5 +9,8 @@ public class Missao5_principal {
         System.out.println("Início da Missão 5");
         Missao5_Arrays missao5Arrays = new Missao5_Arrays();
         missao5Arrays.media_idade_funcionario();
+
+        Missao6_tratamento_excecao excessao = new Missao6_tratamento_excecao();
+        excessao.imprimeValores();
     }
 }
